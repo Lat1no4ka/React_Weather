@@ -1,0 +1,29 @@
+.btn{
+    background-color: rgb(226, 226, 226);
+    outline: none;
+    border-radius: 0px;
+    border-style: none;
+}
+.btn:hover{
+    background-color: rgb(52, 52, 211);
+    color: aliceblue;
+}
+.btn:active, .btn:focus {
+    outline: none !important;
+  }
+
+.block1{
+    margin-top: 35px;
+}
+.weather{
+   
+    margin-top: 20px;
+    width: 200px;
+}
+body{
+    max-width: 450px;
+    padding: 10px;
+    margin: 20px auto;
+    border: solid rgb(219, 216, 216) 1.5px;
+}
+
