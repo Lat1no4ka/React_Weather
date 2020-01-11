@@ -23,7 +23,7 @@ class App extends React.Component {
       <div className="container  block">
         <div className="row block1">
           <input className="col-6" active={this.state.active} onChange={this.handleChange} ></input>
-          <button className="coд-3 mt-2 ml-3 btn" onClick={this.onBtnClickHandler}>
+          <button className="col-3 mt-2 ml-3 btn" onClick={this.onBtnClickHandler}>
             Weather
           </button>
         </div>
